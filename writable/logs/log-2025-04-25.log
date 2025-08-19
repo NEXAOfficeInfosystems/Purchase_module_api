@@ -1,0 +1,30 @@
+DEBUG - 2025-04-25 06:20:30 --> Selected Variations for Variation ID 3: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-04-25 06:20:30 --> Variation Details for Variation ID 3: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-04-25 06:20:30 --> Variation Options for Product ID 4: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-04-25 06:20:30 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-04-25 06:20:30 --> Variation Type for ID 3: null
+DEBUG - 2025-04-25 06:20:30 --> Variation Types for Product ID 4: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue"]}}
+DEBUG - 2025-04-25 06:20:34 --> Selected Variations for Variation ID 3: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-04-25 06:20:34 --> Variation Details for Variation ID 3: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-04-25 06:20:34 --> Variation Options for Product ID 4: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-04-25 06:20:34 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-04-25 06:20:34 --> Variation Type for ID 3: null
+DEBUG - 2025-04-25 06:20:34 --> Variation Types for Product ID 4: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue"]}}
+DEBUG - 2025-04-25 06:20:36 --> Selected Variations for Variation ID 3: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-04-25 06:20:36 --> Variation Details for Variation ID 3: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-04-25 06:20:36 --> Variation Options for Product ID 4: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-04-25 06:20:36 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-04-25 06:20:36 --> Variation Type for ID 3: null
+DEBUG - 2025-04-25 06:20:36 --> Variation Types for Product ID 4: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue"]}}
+DEBUG - 2025-04-25 09:31:07 --> Selected Variations for Variation ID 3: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-04-25 09:31:07 --> Variation Details for Variation ID 3: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-04-25 09:31:07 --> Variation Options for Product ID 4: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-04-25 09:31:08 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-04-25 09:31:08 --> Variation Type for ID 3: null
+DEBUG - 2025-04-25 09:31:08 --> Variation Types for Product ID 4: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue"]}}
+DEBUG - 2025-04-25 09:34:05 --> Selected Variations for Variation ID 3: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-04-25 09:34:05 --> Variation Details for Variation ID 3: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-04-25 09:34:05 --> Variation Options for Product ID 4: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-04-25 09:34:05 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-04-25 09:34:05 --> Variation Type for ID 3: null
+DEBUG - 2025-04-25 09:34:05 --> Variation Types for Product ID 4: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue"]}}

@@ -1,0 +1,987 @@
+ERROR - 2024-11-27 04:28:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\ProductCategorieController.php(130): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getCategories()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\ProductCategorieController.php(130): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getCategories()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:28:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getCategoriesdetails]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categories`', [], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\ProductCategorieController.php(130): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getCategories()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:28:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(386): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getcountries()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(386): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getcountries()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:28:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getcountriesdetails]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `countries`', [], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\CustomerController.php(386): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getcountries()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:28:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(311): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getStates()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(311): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getStates()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:28:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getstatesdetails]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`', [], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\CustomerController.php(311): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getStates()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:28:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(349): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getcities()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(349): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getcities()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:28:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getcitiesdetails]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`', [], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\CustomerController.php(349): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getcities()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:28:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\ProductCategorieController.php(186): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getProducts()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\ProductCategorieController.php(186): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getProducts()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:28:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getProductsdetails]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `stock_qty` > :stock_qty:
+AND `is_published` = :is_published:
+AND `is_deleted` = :is_deleted:', [...], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\ProductCategorieController.php(186): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:28:30 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(610): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(227): CodeIgniter\BaseModel->find()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getCustomer()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(610): CodeIgniter\Model->doFind(false, NULL)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(227): CodeIgniter\BaseModel->find()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getCustomer()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:28:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getCustomerdetails]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `id` = :id:', [...], false)
+ 3 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(false, null)
+ 5 APPPATH\Controllers\api\CustomerController.php(227): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getCustomer()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:28:35 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\ProductCategorieController.php(399): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getwishlistProducts()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\ProductCategorieController.php(399): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getwishlistProducts()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:28:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/wishlist]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `wishlists`
+WHERE `user_id` = :user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\ProductCategorieController.php(399): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getwishlistProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:28:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\GeneralSettingController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\GeneralSettingController->getSettings()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\GeneralSettingController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\GeneralSettingController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\GeneralSettingController->getSettings()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\GeneralSettingController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:28:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getsetting]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `system_settings`', [], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\GeneralSettingController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\GeneralSettingController->getSettings()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\GeneralSettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:28:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\BestSellingController.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\api\BestSellingController->bestsellingproduct()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\BestSellingController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\BestSellingController.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\api\BestSellingController->bestsellingproduct()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\BestSellingController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:28:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/bestsellingproducts]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `stock_qty` > :stock_qty:
+AND `is_published` = :is_published:
+AND `is_deleted` = :is_deleted:', [...], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\BestSellingController.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\api\BestSellingController->bestsellingproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\BestSellingController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:28:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(386): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getcountries()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(386): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getcountries()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:28:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getcountriesdetails]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `countries`', [], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\CustomerController.php(386): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getcountries()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:28:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(311): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getStates()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(311): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getStates()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:28:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getstatesdetails]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `states`', [], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\CustomerController.php(311): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getStates()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:28:56 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(349): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getcities()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\CustomerController.php(349): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getcities()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:28:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getcitiesdetails]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`', [], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\CustomerController.php(349): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CustomerController->getcities()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:29:00 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\ProductCategorieController.php(186): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getProducts()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\ProductCategorieController.php(186): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getProducts()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:29:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getProductsdetails]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `stock_qty` > :stock_qty:
+AND `is_published` = :is_published:
+AND `is_deleted` = :is_deleted:', [...], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\ProductCategorieController.php(186): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:29:05 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\ProductCategorieController.php(399): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getwishlistProducts()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\ProductCategorieController.php(399): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getwishlistProducts()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:29:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/wishlist]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `wishlists`
+WHERE `user_id` = :user_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\ProductCategorieController.php(399): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->getwishlistProducts()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:29:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\GeneralSettingController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\GeneralSettingController->getSettings()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\GeneralSettingController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\GeneralSettingController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\GeneralSettingController->getSettings()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\GeneralSettingController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:29:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getsetting]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `system_settings`', [], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\GeneralSettingController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\GeneralSettingController->getSettings()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\GeneralSettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:29:13 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\BestSellingController.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\api\BestSellingController->bestsellingproduct()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\BestSellingController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\BestSellingController.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\api\BestSellingController->bestsellingproduct()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\BestSellingController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:29:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/bestsellingproducts]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `stock_qty` > :stock_qty:
+AND `is_published` = :is_published:
+AND `is_deleted` = :is_deleted:', [...], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\BestSellingController.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\api\BestSellingController->bestsellingproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\BestSellingController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:29:17 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\GeneralSettingController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\GeneralSettingController->getSettings()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\GeneralSettingController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\GeneralSettingController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\GeneralSettingController->getSettings()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\GeneralSettingController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:29:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getsetting]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `system_settings`', [], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\GeneralSettingController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\GeneralSettingController->getSettings()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\GeneralSettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:29:21 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\GeneralSettingController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\GeneralSettingController->getSettings()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\GeneralSettingController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\GeneralSettingController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\GeneralSettingController->getSettings()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\GeneralSettingController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:29:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/getsetting]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `system_settings`', [], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\GeneralSettingController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\GeneralSettingController->getSettings()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\GeneralSettingController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+ERROR - 2024-11-27 04:29:25 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'nexaestore', NULL, '', 0)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\BestSellingController.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\api\BestSellingController->bestsellingproduct()
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\BestSellingController))
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\app\Controllers\api\BestSellingController.php(24): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\api\BestSellingController->bestsellingproduct()
+#7 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\BestSellingController))
+#8 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Admin\Pictures\Nothing\OneDrive\Desktop\NewProjects\htdocs\CelladentUserApi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#13 {main}
+CRITICAL - 2024-11-27 04:29:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: api/bestsellingproducts]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `stock_qty` > :stock_qty:
+AND `is_published` = :is_published:
+AND `is_deleted` = :is_deleted:', [...], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\api\BestSellingController.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\api\BestSellingController->bestsellingproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\BestSellingController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')

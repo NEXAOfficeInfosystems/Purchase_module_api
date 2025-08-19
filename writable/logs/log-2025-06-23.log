@@ -1,0 +1,377 @@
+DEBUG - 2025-06-23 04:20:34 --> Selected Variations for Variation ID 3: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Details for Variation ID 3: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Options for Product ID 4: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Types for Product ID 4: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L"]}}
+DEBUG - 2025-06-23 04:20:34 --> Selected Variations for Variation ID 4: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Details for Variation ID 4: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Options for Product ID 5: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Types for Product ID 5: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l"]}}
+DEBUG - 2025-06-23 04:20:34 --> Selected Variations for Variation ID 5: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Details for Variation ID 5: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"}]
+DEBUG - 2025-06-23 04:20:34 --> Selected Variations for Variation ID 6: [{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Details for Variation ID 6: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Options for Product ID 6: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Types for Product ID 6: {"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l","2L"]},"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]}}
+DEBUG - 2025-06-23 04:20:34 --> Selected Variations for Variation ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Details for Variation ID 7: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:20:34 --> Selected Variations for Variation ID 9: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Details for Variation ID 9: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Options for Product ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:20:34 --> Variation Types for Product ID 7: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue","Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L","1l"]}}
+DEBUG - 2025-06-23 04:21:14 --> Selected Variations for Variation ID 3: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Details for Variation ID 3: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Options for Product ID 4: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Types for Product ID 4: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L"]}}
+DEBUG - 2025-06-23 04:21:14 --> Selected Variations for Variation ID 4: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Details for Variation ID 4: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Options for Product ID 5: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Types for Product ID 5: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l"]}}
+DEBUG - 2025-06-23 04:21:14 --> Selected Variations for Variation ID 5: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Details for Variation ID 5: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"}]
+DEBUG - 2025-06-23 04:21:14 --> Selected Variations for Variation ID 6: [{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Details for Variation ID 6: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Options for Product ID 6: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Types for Product ID 6: {"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l","2L"]},"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]}}
+DEBUG - 2025-06-23 04:21:14 --> Selected Variations for Variation ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Details for Variation ID 7: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:14 --> Selected Variations for Variation ID 9: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Details for Variation ID 9: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Options for Product ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:14 --> Variation Types for Product ID 7: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue","Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L","1l"]}}
+DEBUG - 2025-06-23 04:21:18 --> Selected Variations for Variation ID 3: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Details for Variation ID 3: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Options for Product ID 4: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Types for Product ID 4: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L"]}}
+DEBUG - 2025-06-23 04:21:18 --> Selected Variations for Variation ID 4: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Details for Variation ID 4: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Options for Product ID 5: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Types for Product ID 5: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l"]}}
+DEBUG - 2025-06-23 04:21:18 --> Selected Variations for Variation ID 5: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Details for Variation ID 5: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"}]
+DEBUG - 2025-06-23 04:21:18 --> Selected Variations for Variation ID 6: [{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Details for Variation ID 6: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Options for Product ID 6: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Types for Product ID 6: {"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l","2L"]},"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]}}
+DEBUG - 2025-06-23 04:21:18 --> Selected Variations for Variation ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Details for Variation ID 7: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:18 --> Selected Variations for Variation ID 9: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Details for Variation ID 9: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Options for Product ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:18 --> Variation Types for Product ID 7: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue","Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L","1l"]}}
+DEBUG - 2025-06-23 04:21:20 --> Selected Variations for Variation ID 3: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Details for Variation ID 3: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Options for Product ID 4: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Types for Product ID 4: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L"]}}
+DEBUG - 2025-06-23 04:21:20 --> Selected Variations for Variation ID 4: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Details for Variation ID 4: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Options for Product ID 5: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Types for Product ID 5: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l"]}}
+DEBUG - 2025-06-23 04:21:20 --> Selected Variations for Variation ID 5: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Details for Variation ID 5: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"}]
+DEBUG - 2025-06-23 04:21:20 --> Selected Variations for Variation ID 6: [{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Details for Variation ID 6: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Options for Product ID 6: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Types for Product ID 6: {"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l","2L"]},"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]}}
+DEBUG - 2025-06-23 04:21:20 --> Selected Variations for Variation ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Details for Variation ID 7: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 04:21:20 --> Selected Variations for Variation ID 9: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Details for Variation ID 9: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Options for Product ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 04:21:20 --> Variation Types for Product ID 7: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue","Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L","1l"]}}
+DEBUG - 2025-06-23 06:00:17 --> Selected Variations for Variation ID 3: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Details for Variation ID 3: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Options for Product ID 4: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Types for Product ID 4: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L"]}}
+DEBUG - 2025-06-23 06:00:17 --> Selected Variations for Variation ID 4: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Details for Variation ID 4: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Options for Product ID 5: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Types for Product ID 5: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l"]}}
+DEBUG - 2025-06-23 06:00:17 --> Selected Variations for Variation ID 5: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Details for Variation ID 5: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"}]
+DEBUG - 2025-06-23 06:00:17 --> Selected Variations for Variation ID 6: [{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Details for Variation ID 6: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Options for Product ID 6: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Types for Product ID 6: {"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l","2L"]},"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]}}
+DEBUG - 2025-06-23 06:00:17 --> Selected Variations for Variation ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Details for Variation ID 7: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:17 --> Selected Variations for Variation ID 9: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Details for Variation ID 9: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Options for Product ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:17 --> Variation Types for Product ID 7: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue","Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L","1l"]}}
+DEBUG - 2025-06-23 06:00:20 --> Selected Variations for Variation ID 3: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Details for Variation ID 3: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Options for Product ID 4: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Types for Product ID 4: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L"]}}
+DEBUG - 2025-06-23 06:00:20 --> Selected Variations for Variation ID 4: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Details for Variation ID 4: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Options for Product ID 5: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Types for Product ID 5: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l"]}}
+DEBUG - 2025-06-23 06:00:20 --> Selected Variations for Variation ID 5: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Details for Variation ID 5: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"}]
+DEBUG - 2025-06-23 06:00:20 --> Selected Variations for Variation ID 6: [{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Details for Variation ID 6: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Options for Product ID 6: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Types for Product ID 6: {"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l","2L"]},"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]}}
+DEBUG - 2025-06-23 06:00:20 --> Selected Variations for Variation ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Details for Variation ID 7: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:20 --> Selected Variations for Variation ID 9: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Details for Variation ID 9: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Options for Product ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:20 --> Variation Types for Product ID 7: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue","Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L","1l"]}}
+DEBUG - 2025-06-23 06:00:22 --> Selected Variations for Variation ID 3: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Details for Variation ID 3: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Options for Product ID 4: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Types for Product ID 4: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L"]}}
+DEBUG - 2025-06-23 06:00:22 --> Selected Variations for Variation ID 4: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Details for Variation ID 4: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Options for Product ID 5: [{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Types for Product ID 5: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l"]}}
+DEBUG - 2025-06-23 06:00:22 --> Selected Variations for Variation ID 5: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Details for Variation ID 5: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Red"}]
+DEBUG - 2025-06-23 06:00:22 --> Selected Variations for Variation ID 6: [{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Details for Variation ID 6: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Options for Product ID 6: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Types for Product ID 6: {"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["1l","2L"]},"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Red"]}}
+DEBUG - 2025-06-23 06:00:22 --> Selected Variations for Variation ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Details for Variation ID 7: [{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"},{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"2L"}]
+DEBUG - 2025-06-23 06:00:22 --> Selected Variations for Variation ID 9: [{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Details for Variation ID 9: [{"variation_id":"3","variation_type":"Capacity","display_name":"Capacity","selected_value":"1l"},{"variation_id":"2","variation_type":"Colour","display_name":"Color","selected_value":"Blue"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Options for Product ID 7: [{"variation_type_id":"2","selected_value":"Blue"},{"variation_type_id":"3","selected_value":"2L"},{"variation_type_id":"2","selected_value":"Red"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"3","selected_value":"1l"},{"variation_type_id":"2","selected_value":"Blue"}]
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 3: {"id":"3","variation_type":"Colour","display_name":"Color"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Type for ID 2: {"id":"2","variation_type":"Capacity","display_name":"Capacity"}
+DEBUG - 2025-06-23 06:00:22 --> Variation Types for Product ID 7: {"2":{"variation_id":"2","variation_type":"Capacity","display_name":"Capacity","values":["Blue","Red"]},"3":{"variation_id":"3","variation_type":"Colour","display_name":"Color","values":["2L","1l"]}}
+ERROR - 2025-06-23 08:07:36 --> mysqli_sql_exception: Column 'payment_method' cannot be null in C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Admin\Documents\Planery-User-Api\app\Controllers\api\ProductCategorieController.php(1387): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->bulk_order_request()
+#9 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+#10 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\Admin\Documents\Planery-User-Api\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#15 {main}
+CRITICAL - 2025-06-23 08:07:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'payment_method' cannot be null
+[Method: POST, Route: api/req_bulk_order]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_groups` (`user_id`, `order_code`, `shipping_address_id`, `phone_no`, `sub_total_amount`, `grand_total_amount`, `created_at`, `updated_at`, `payment_method`, `payment_status`) VALUES (:user_id:, :order_code:, :shipping_address_id:, :phone_no:, :sub_total_amount:, :grand_total_amount:, :created_at:, :updated_at:, :payment_method:, :payment_status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\api\ProductCategorieController.php(1387): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->bulk_order_request()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Documents\\Planery-User-Api\\public\\index.php')
+CRITICAL - 2025-06-23 08:07:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'payment_method' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_groups` (`user_id`, `order_code`, `shipping_address_id`, `phone_no`, `sub_total_amount`, `grand_total_amount`, `created_at`, `updated_at`, `payment_method`, `payment_status`) VALUES (\'50\', 1, \'75\', \'7358268360\', 540, 540, \'2025-06-23 08:07:36\', \'2025-06-23 08:07:36\', NULL, \'pending\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_groups` (`user_id`, `order_code`, `shipping_address_id`, `phone_no`, `sub_total_amount`, `grand_total_amount`, `created_at`, `updated_at`, `payment_method`, `payment_status`) VALUES (\'50\', 1, \'75\', \'7358268360\', 540, 540, \'2025-06-23 08:07:36\', \'2025-06-23 08:07:36\', NULL, \'pending\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_groups` (`user_id`, `order_code`, `shipping_address_id`, `phone_no`, `sub_total_amount`, `grand_total_amount`, `created_at`, `updated_at`, `payment_method`, `payment_status`) VALUES (:user_id:, :order_code:, :shipping_address_id:, :phone_no:, :sub_total_amount:, :grand_total_amount:, :created_at:, :updated_at:, :payment_method:, :payment_status:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\api\ProductCategorieController.php(1387): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->bulk_order_request()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Documents\\Planery-User-Api\\public\\index.php')
+CRITICAL - 2025-06-23 08:07:36 --> [Caused by] mysqli_sql_exception: Column 'payment_method' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `order_groups` (`user_id`, `order_code`, `shipping_address_id`, `phone_no`, `sub_total_amount`, `grand_total_amount`, `created_at`, `updated_at`, `payment_method`, `payment_status`) VALUES (\'50\', 1, \'75\', \'7358268360\', 540, 540, \'2025-06-23 08:07:36\', \'2025-06-23 08:07:36\', NULL, \'pending\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_groups` (`user_id`, `order_code`, `shipping_address_id`, `phone_no`, `sub_total_amount`, `grand_total_amount`, `created_at`, `updated_at`, `payment_method`, `payment_status`) VALUES (\'50\', 1, \'75\', \'7358268360\', 540, 540, \'2025-06-23 08:07:36\', \'2025-06-23 08:07:36\', NULL, \'pending\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_groups` (`user_id`, `order_code`, `shipping_address_id`, `phone_no`, `sub_total_amount`, `grand_total_amount`, `created_at`, `updated_at`, `payment_method`, `payment_status`) VALUES (\'50\', 1, \'75\', \'7358268360\', 540, 540, \'2025-06-23 08:07:36\', \'2025-06-23 08:07:36\', NULL, \'pending\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_groups` (`user_id`, `order_code`, `shipping_address_id`, `phone_no`, `sub_total_amount`, `grand_total_amount`, `created_at`, `updated_at`, `payment_method`, `payment_status`) VALUES (:user_id:, :order_code:, :shipping_address_id:, :phone_no:, :sub_total_amount:, :grand_total_amount:, :created_at:, :updated_at:, :payment_method:, :payment_status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\api\ProductCategorieController.php(1387): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->bulk_order_request()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Documents\\Planery-User-Api\\public\\index.php')
+ERROR - 2025-06-23 08:09:18 --> mysqli_sql_exception: Column 'shipping_delivery_type' cannot be null in C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\Admin\Documents\Planery-User-Api\app\Controllers\api\ProductCategorieController.php(1414): CodeIgniter\Model->insert(Array)
+#8 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->bulk_order_request()
+#9 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+#10 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\Admin\Documents\Planery-User-Api\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\Admin\Documents\Planery-User-Api\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\...')
+#15 {main}
+CRITICAL - 2025-06-23 08:09:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'shipping_delivery_type' cannot be null
+[Method: POST, Route: api/req_bulk_order]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orders` (`order_group_id`, `user_id`, `saleorder_id`, `updated_at`, `payment_status`, `is_approved`, `delivery_status`, `shipping_cost`, `shipping_delivery_type`, `scheduled_delivery_info`) VALUES (:order_group_id:, :user_id:, :saleorder_id:, :updated_at:, :payment_status:, :is_approved:, :delivery_status:, :shipping_cost:, :shipping_delivery_type:, :scheduled_delivery_info:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\api\ProductCategorieController.php(1414): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->bulk_order_request()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Documents\\Planery-User-Api\\public\\index.php')
+CRITICAL - 2025-06-23 08:09:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'shipping_delivery_type' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orders` (`order_group_id`, `user_id`, `saleorder_id`, `updated_at`, `payment_status`, `is_approved`, `delivery_status`, `shipping_cost`, `shipping_delivery_type`, `scheduled_delivery_info`) VALUES (60, \'50\', \'SO#00010\', \'2025-06-23 08:09:18\', \'unpaid\', 0, \'Pending\', 0, NULL, \'2025-06-23\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orders` (`order_group_id`, `user_id`, `saleorder_id`, `updated_at`, `payment_status`, `is_approved`, `delivery_status`, `shipping_cost`, `shipping_delivery_type`, `scheduled_delivery_info`) VALUES (60, \'50\', \'SO#00010\', \'2025-06-23 08:09:18\', \'unpaid\', 0, \'Pending\', 0, NULL, \'2025-06-23\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orders` (`order_group_id`, `user_id`, `saleorder_id`, `updated_at`, `payment_status`, `is_approved`, `delivery_status`, `shipping_cost`, `shipping_delivery_type`, `scheduled_delivery_info`) VALUES (:order_group_id:, :user_id:, :saleorder_id:, :updated_at:, :payment_status:, :is_approved:, :delivery_status:, :shipping_cost:, :shipping_delivery_type:, :scheduled_delivery_info:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\api\ProductCategorieController.php(1414): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->bulk_order_request()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Documents\\Planery-User-Api\\public\\index.php')
+CRITICAL - 2025-06-23 08:09:18 --> [Caused by] mysqli_sql_exception: Column 'shipping_delivery_type' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `orders` (`order_group_id`, `user_id`, `saleorder_id`, `updated_at`, `payment_status`, `is_approved`, `delivery_status`, `shipping_cost`, `shipping_delivery_type`, `scheduled_delivery_info`) VALUES (60, \'50\', \'SO#00010\', \'2025-06-23 08:09:18\', \'unpaid\', 0, \'Pending\', 0, NULL, \'2025-06-23\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orders` (`order_group_id`, `user_id`, `saleorder_id`, `updated_at`, `payment_status`, `is_approved`, `delivery_status`, `shipping_cost`, `shipping_delivery_type`, `scheduled_delivery_info`) VALUES (60, \'50\', \'SO#00010\', \'2025-06-23 08:09:18\', \'unpaid\', 0, \'Pending\', 0, NULL, \'2025-06-23\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orders` (`order_group_id`, `user_id`, `saleorder_id`, `updated_at`, `payment_status`, `is_approved`, `delivery_status`, `shipping_cost`, `shipping_delivery_type`, `scheduled_delivery_info`) VALUES (60, \'50\', \'SO#00010\', \'2025-06-23 08:09:18\', \'unpaid\', 0, \'Pending\', 0, NULL, \'2025-06-23\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orders` (`order_group_id`, `user_id`, `saleorder_id`, `updated_at`, `payment_status`, `is_approved`, `delivery_status`, `shipping_cost`, `shipping_delivery_type`, `scheduled_delivery_info`) VALUES (:order_group_id:, :user_id:, :saleorder_id:, :updated_at:, :payment_status:, :is_approved:, :delivery_status:, :shipping_cost:, :shipping_delivery_type:, :scheduled_delivery_info:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\api\ProductCategorieController.php(1414): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\ProductCategorieController->bulk_order_request()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductCategorieController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Documents\\Planery-User-Api\\public\\index.php')

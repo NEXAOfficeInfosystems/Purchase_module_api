@@ -1,0 +1,132 @@
+CRITICAL - 2025-01-28 05:49:15 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 141.
+ 1 APPPATH\Controllers\api\CartController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 141)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2025-01-28 05:49:16 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 141.
+ 1 APPPATH\Controllers\api\CartController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 141)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2025-01-28 05:51:06 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 141.
+ 1 APPPATH\Controllers\api\CartController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 141)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2025-01-28 05:51:07 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 141.
+ 1 APPPATH\Controllers\api\CartController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 141)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2025-01-28 05:51:08 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 141.
+ 1 APPPATH\Controllers\api\CartController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 141)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2025-01-28 05:54:13 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 141.
+ 1 APPPATH\Controllers\api\CartController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 141)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2025-01-28 05:54:15 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 141.
+ 1 APPPATH\Controllers\api\CartController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 141)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2025-01-28 06:02:47 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 141.
+ 1 APPPATH\Controllers\api\CartController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 141)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2025-01-28 06:02:49 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 141.
+ 1 APPPATH\Controllers\api\CartController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 141)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2025-01-28 06:09:36 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 141.
+ 1 APPPATH\Controllers\api\CartController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 141)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2025-01-28 06:09:38 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 141.
+ 1 APPPATH\Controllers\api\CartController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 141)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')

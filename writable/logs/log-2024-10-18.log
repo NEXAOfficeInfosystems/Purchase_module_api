@@ -1,0 +1,102 @@
+CRITICAL - 2024-10-18 12:58:01 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 137.
+ 1 APPPATH\Controllers\api\CartController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 137)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2024-10-18 12:58:03 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 137.
+ 1 APPPATH\Controllers\api\CartController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 137)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2024-10-18 12:58:05 --> ErrorException: Undefined array key "tax_id"
+[Method: GET, Route: api/getcart]
+in APPPATH\Controllers\api\CartController.php on line 137.
+ 1 APPPATH\Controllers\api\CartController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tax_id"', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\CartController.php', 137)
+ 2 APPPATH\Controllers\api\CartController.php(99): App\Controllers\Api\CartController->transformProducts([...], Object(App\Models\Customer\ProductsModel))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\CartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2024-10-18 12:58:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: api/login]
+in APPPATH\Controllers\api\AuthController.php on line 94.
+ 1 APPPATH\Controllers\api\AuthController.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\AuthController.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2024-10-18 12:59:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: api/login]
+in APPPATH\Controllers\api\AuthController.php on line 94.
+ 1 APPPATH\Controllers\api\AuthController.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\AuthController.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2024-10-18 13:00:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: api/login]
+in APPPATH\Controllers\api\AuthController.php on line 94.
+ 1 APPPATH\Controllers\api\AuthController.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\AuthController.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2024-10-18 13:00:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: api/login]
+in APPPATH\Controllers\api\AuthController.php on line 94.
+ 1 APPPATH\Controllers\api\AuthController.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\AuthController.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2024-10-18 13:01:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: api/login]
+in APPPATH\Controllers\api\AuthController.php on line 94.
+ 1 APPPATH\Controllers\api\AuthController.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\AuthController.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
+CRITICAL - 2024-10-18 13:02:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: api/login]
+in APPPATH\Controllers\api\AuthController.php on line 94.
+ 1 APPPATH\Controllers\api\AuthController.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\app\\Controllers\\api\\AuthController.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\Admin\\Pictures\\Nothing\\OneDrive\\Desktop\\NewProjects\\htdocs\\CelladentUserApi\\public\\index.php')
