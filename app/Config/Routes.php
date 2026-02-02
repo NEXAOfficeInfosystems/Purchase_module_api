@@ -1,5 +1,6 @@
 <?php
 
+use App\Controllers\Api\StripeController;
 use CodeIgniter\Router\RouteCollection;
 use App\Controllers\Home;
 use App\Controllers\api\CartController;
@@ -12,6 +13,8 @@ use App\Controllers\api\ProductController;
 use App\Controllers\api\SaleorderController;
 use App\Controllers\api\GeneralSettingController;
 use App\Controllers\api\BestSellingController;
+use App\Controllers\api\StripeWebhook;
+
 
 
 
@@ -102,5 +105,15 @@ $routes->get('api/orderlistReturns', [OrdersController::class, 'getCancelledOrde
 $routes->get('api/ordertracklist', [OrdersController::class, 'trackOrderlist']);
 $routes->post('api/orderTrackReturn', [OrdersController::class, 'trackOrderReturn']);
 $routes->get('api/generateToken', [AuthController::class, 'generateGuestToken']);
+$routes->post('api/getPaymentUser',[AuthController::class, 'sendPaymentOtptomail'] );
 
 
+
+// ----------------------Stripe------------------------
+$routes->post('stripe/create-checkout', [StripeController::class,'createCheckoutSession']);
+$routes->get('stripe/return', [StripeController::class,'handleReturn']);
+
+
+// In app/Config/Routes.php
+$routes->post('checkout/process', [StripeController::class,'cartCheckout']);
+$routes->post('stripe/webhook', [StripeWebhook::class,'index']);

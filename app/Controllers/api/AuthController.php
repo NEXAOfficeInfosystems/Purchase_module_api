@@ -256,7 +256,56 @@ $json = $this->request->getJSON();
     }
     }
 
+  
+public function sendPaymentOtptomail()
+{
+    // Generate a random 5-digit OTP
+    $json = $this->request->getJSON();
+    $otp = rand(10000, 99999);
+    $userModel = new UsersModel();
 
+    // Send OTP to email
+    $emailService = \Config\Services::email();
+    $emailService->initialize([
+        'protocol' => 'smtp',
+        'SMTPHost' => 'smtp.gmail.com',
+        'SMTPPort' => 587,
+        'SMTPAuth' => true,
+        'SMTPUser' => 'officeinfosystems2024@gmail.com',
+        'SMTPPass' => 'msiz gltz miut vtcr',
+        'mailType' => 'html',
+        'SMTPCrypto' => 'tls',
+        'newline' => "\r\n"
+    ]);
+
+    $emailService->setFrom('officeinfosystems2024@gmail.com', 'Planet Nursery');
+    $emailService->setTo($json->email);
+    $emailService->setSubject('Verification OTP');
+    $emailService->setMessage("Your OTP is: $otp.");
+
+    if ($emailService->send()) {
+        $db = \Config\Database::connect();
+        $db->query("INSERT INTO otp (email, otp, created_at) VALUES (?, ?, NOW())", [$json->email, $otp]);
+
+        // Check if user exists by email
+        $user = $userModel->where('email', $json->email)->first();
+
+        return $this->response->setStatusCode(200)->setJSON([
+            'messageobject' => [
+                'status' => 200,
+                'message' => 'OTP sent successfully to your email.',
+                'user_details' => $user ? $user : null
+            ]
+        ]);
+    } else {
+        return $this->response->setStatusCode(400)->setJSON([
+            'messageobject' => [
+                'status' => 400,
+                'message' => 'Failed to send OTP. Please try again later.'
+            ]
+        ]);
+    }
+}
 public function verifyOtp()
 {
     $json = $this->request->getJSON();
@@ -294,7 +343,8 @@ public function verifyOtp()
 
         return $this->response->setStatusCode(200)->setJSON(['messageobject' => [
             'status' => 200,
-            'message' => 'OTP verified successfully.'
+            'message' => 'OTP verified successfully.',
+            'success'=>1
         ]]);
     } else {
        
